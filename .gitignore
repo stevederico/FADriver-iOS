@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+Package.resolved
+
+# WDA build output
+/build/
+/tmp/
+
+# vendor WDA build artifacts (source is tracked via submodule)
+/vendor/WebDriverAgent/build/
+/vendor/WebDriverAgent/.build/
